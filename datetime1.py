@@ -1,0 +1,12 @@
+from datetime import datetime
+Tday=datetime.now()
+year=Tday.strftime("%Y")
+print("Year:",year)
+month=Tday.strftime("%m")
+print("Month:",month)
+day=Tday.strftime("%d")
+print("Day:",day)
+time=Tday.strftime("%H:%M:%S")
+print("The Time is :",time)
+localformat=Tday.strftime("%d-%m-%Y")
+print("Local format of Date:",localformat)
